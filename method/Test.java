@@ -1,0 +1,20 @@
+/* WAP create 1 static ,1 non static method,call both the in main method*/
+class Test
+{
+	public static void bike() 
+	{
+		System.out.println("bike hornnet....");
+	}
+	public void car()
+	{
+		System.out.println("car bmw....");
+	}
+	public static void main (String[] args)
+	{
+		System.out.println("your favourt vechicle...");
+	Test bus =new Test();
+	bus.bike();
+	bus.car();
+		System.out.println("color by green/...");
+	}
+}

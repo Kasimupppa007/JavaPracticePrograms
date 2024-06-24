@@ -1,0 +1,16 @@
+class Circle 
+{
+	public double pi=3.14;
+	
+	public int radius =  5;
+
+	public double area ();
+
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		Circle s1 = new circle ();
+		System.out.println("area"+s1.pi*radius);
+;	}
+}

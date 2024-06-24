@@ -1,0 +1,26 @@
+ 
+/* Q1 : WAP to overloa static and non static method.*/ 
+
+
+class StaticNonstatic 
+{
+	public static void test1(int i)
+	{
+
+		System.out.println("exam passed "+i+" marks");
+	}
+	public void test1(double a)
+	{
+
+		System.out.println("2exams loasses "+a+"points");
+	}
+	public static void main(String[] args)
+	{
+
+		System.out.println("main start....");
+		test1(25);
+		StaticNonstatic s1 = new StaticNonstatic();
+		s1.test1(2.5);
+		System.out.println("main ending.....");
+	}
+}

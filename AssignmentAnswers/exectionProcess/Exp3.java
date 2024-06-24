@@ -1,0 +1,35 @@
+/*Q3. WAP to crete static variable ,non static variable,static method ,
+  non static method ,and access all the members in main method.*/
+
+class  Exp3
+{
+	public static int count(int i,int j)
+	{
+		System.out.println(i+j);
+		return(j);
+	}
+	public  double count(double i,int j)
+	{
+		System.out.println(i+j);
+		return(j);
+	}
+	public static void add(int i,int j)
+	{
+		System.out.println(i+j);
+	}
+	public void mul(int i,int j)
+	{
+		System.out.println(i*j );
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("main start..");
+		count(5,6);
+		Exp3 m = new Exp3();
+		m.count(9.6,5);
+		add(2,12);
+		m.mul(3,2);
+
+	}
+}

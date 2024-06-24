@@ -1,0 +1,12 @@
+/* static variable using global variable*/
+class Golden 
+{
+	public static int s =15;
+
+	public static void main(String[] args) 
+	{
+		System.out.println(s);
+	}
+	
+
+}

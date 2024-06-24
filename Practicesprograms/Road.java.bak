@@ -1,0 +1,20 @@
+class Road 
+{
+	public static void test1(int i,String j)
+	{
+		System.out.println(j);
+		System.out.println(i);
+	}
+	public void test1(int a,double b,char c)
+	{
+		System.out.println(a+b+c);
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("main start!.....");
+		test1(9,"Kasi");
+		Road s1 = new Road();
+		s1.test1(25,2.5,'$');
+		System.out.println("main ening&,,,,,");
+	}
+}

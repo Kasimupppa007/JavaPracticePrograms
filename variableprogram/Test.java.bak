@@ -1,0 +1,22 @@
+/* wap to create non static method and static method,create local variable of double in non static method,
+boolean datatype in static method,print local variable in the same method,call the method from main method */
+
+class Test
+{
+	public static void main(String[] args) 
+	{
+		Test math = new Test();
+		math.mark();
+		math.sub();
+	}
+	public void mark()
+	{
+		double eng= 96.3;
+		System.out.println(engs);
+	}
+	public static void sub()
+	{
+		boolean pass = true;
+		System.out.println(pass);
+	}
+}

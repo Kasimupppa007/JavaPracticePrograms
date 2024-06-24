@@ -1,0 +1,36 @@
+class Diffoverload 
+{
+	public static void mul(int a,int b,int c)
+	{
+		int d;
+		d=a*b*c;
+		System.out.println(d);
+	}
+	public static void mul(int a,double b,int c)
+	{
+		double d;
+		d=a*b*c;
+		System.out.println(d);
+	}
+	public static void mul(double a,double b,double c)
+	{
+		double d;
+		d=a*b*c;
+		System.out.println(d);
+	}
+	public static void mul(double a,int b,double c)
+	{
+		double d;
+		d=a*b*c;
+		System.out.println(d);
+	}
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		mul(25,25,25);
+		mul(25,2.5,25);
+		mul(2.5,23.6,2.5);
+		mul(2.5,56,2.5);
+	}
+}

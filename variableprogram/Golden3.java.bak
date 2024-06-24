@@ -1,0 +1,15 @@
+/* WAP  to create 2 static variable  of different datatype and acces to print 
+path the variables in main method*/
+
+class  golden3
+{
+	public static String english = "harry potter";
+	public static boolean good = true;
+
+	
+	public static void main(String[] args) 
+	{
+		System.out.println(english);
+		System.out.println(good);
+	}
+}

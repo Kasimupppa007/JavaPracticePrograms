@@ -1,0 +1,18 @@
+class Demo
+{
+	public static void main(String[] args) 
+	{
+		math();
+		sci();
+	public static void math(int a)
+		{
+		math(12);
+		System.out.println(a);
+		}
+	public static void sci(String name)
+		{
+		sci("kasi");
+		System.out.println(name);
+		}
+	}
+}

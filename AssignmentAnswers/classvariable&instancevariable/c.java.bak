@@ -1,0 +1,19 @@
+/*Q2. WAP to class variable,instance variable,class method,instance method and 
+		access all the memberes in another class main method..*/ 
+
+class  C
+{
+	public static int = 25;
+	public int = 35;
+
+	public static void bike()
+	{
+		int i ;
+		System.out.println(i);
+	}
+	public void car()
+	{
+		double j;
+		System.out.println(j);
+	}
+}
